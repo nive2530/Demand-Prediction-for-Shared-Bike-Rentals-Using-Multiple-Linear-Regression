@@ -11,20 +11,20 @@ BoomBikes, a US-based bike-sharing provider, seeks to understand the factors inf
 The analysis will support the company in forecasting demand and tailoring their services to meet customer needs effectively.
 
 ## Key Tasks and Technical Details
-**1. Data Preparation** 
+<u>**1. Data Preparation** </u>
 
 **Data Cleaning:**
-      - Handled missing values and outliers to ensure data consistency and reliability.
-      - Analyzed numerical and categorical variables for discrepancies.
+- Handled missing values and outliers to ensure data consistency and reliability.
+- Analyzed numerical and categorical variables for discrepancies.
       
 **Feature Engineering:**
-      - Converted ordinal variables (e.g., season, weathersit) into categorical labels using one-hot encoding to remove implicit hierarchy.
-      - Retained the yr variable, identifying it as a valuable predictor due to increasing bike-sharing popularity over time.
+- Converted ordinal variables (e.g., season, weathersit) into categorical labels using one-hot encoding to remove implicit hierarchy.
+- Retained the yr variable, identifying it as a valuable predictor due to increasing bike-sharing popularity over time.
       
 **Scaling and Transformation:**
-      - Normalized continuous variables like temp, hum, and windspeed using Min-Max scaling to improve model interpretability and convergence.
+- Normalized continuous variables like temp, hum, and windspeed using Min-Max scaling to improve model interpretability and convergence.
 
-**2. Exploratory Data Analysis (EDA)**
+<u>**2. Exploratory Data Analysis (EDA)**</u>
 
 **Univariate Analysis:**
 - Analyzed distributions of individual features using histograms and box plots to identify trends and anomalies.
