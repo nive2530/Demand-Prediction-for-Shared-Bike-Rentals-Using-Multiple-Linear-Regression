@@ -12,15 +12,14 @@ The analysis will support the company in forecasting demand and tailoring their 
 
 ## Key Tasks and Technical Details
 **1. Data Preparation** 
-  **Data Cleaning:**
+
+**Data Cleaning:**
       - Handled missing values and outliers to ensure data consistency and reliability.
       - Analyzed numerical and categorical variables for discrepancies.
-  
-  **Feature Engineering:**
+**Feature Engineering:**
       - Converted ordinal variables (e.g., season, weathersit) into categorical labels using one-hot encoding to remove implicit hierarchy.
       - Retained the yr variable, identifying it as a valuable predictor due to increasing bike-sharing popularity over time.
-
-  **Scaling and Transformation:**
+**Scaling and Transformation:**
       - Normalized continuous variables like temp, hum, and windspeed using Min-Max scaling to improve model interpretability and convergence.
 
 **2. Exploratory Data Analysis (EDA)**
@@ -48,6 +47,7 @@ The analysis will support the company in forecasting demand and tailoring their 
 ## Tools and Technologies Used
 
 **Programming Language:** Python
+
 **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Statsmodels
 **Techniques:**
 - One-hot encoding, feature scaling, and VIF for multicollinearity assessment.
