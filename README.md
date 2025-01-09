@@ -1,7 +1,5 @@
 # Demand-Prediction-for-Shared-Bike-Rentals-Using-Multiple-Linear-Regression
 
-## Project Title: Predicting Demand for Shared Bikes Using Multiple Linear Regression
-
 ## Project Objective
 To develop a robust multiple linear regression model for predicting the daily demand for shared bikes. This model aims to identify significant factors influencing bike demand and provide actionable insights to optimize operations, improve customer satisfaction, and maximize revenue for a bike-sharing service provider.
 
@@ -13,17 +11,17 @@ BoomBikes, a US-based bike-sharing provider, seeks to understand the factors inf
 The analysis will support the company in forecasting demand and tailoring their services to meet customer needs effectively.
 
 ## Key Tasks and Technical Details
-** 1. Data Preparation** 
-**Data Cleaning:**
-- Handled missing values and outliers to ensure data consistency and reliability.
-- Analyzed numerical and categorical variables for discrepancies.
+**1. Data Preparation** 
+  **Data Cleaning:**
+      - Handled missing values and outliers to ensure data consistency and reliability.
+      - Analyzed numerical and categorical variables for discrepancies.
   
-**Feature Engineering:**
-- Converted ordinal variables (e.g., season, weathersit) into categorical labels using one-hot encoding to remove implicit hierarchy.
-- Retained the yr variable, identifying it as a valuable predictor due to increasing bike-sharing popularity over time.
+  **Feature Engineering:**
+      - Converted ordinal variables (e.g., season, weathersit) into categorical labels using one-hot encoding to remove implicit hierarchy.
+      - Retained the yr variable, identifying it as a valuable predictor due to increasing bike-sharing popularity over time.
 
-**Scaling and Transformation:**
-- Normalized continuous variables like temp, hum, and windspeed using Min-Max scaling to improve model interpretability and convergence.
+  **Scaling and Transformation:**
+      - Normalized continuous variables like temp, hum, and windspeed using Min-Max scaling to improve model interpretability and convergence.
 
 **2. Exploratory Data Analysis (EDA)**
 **Univariate Analysis:**
