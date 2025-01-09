@@ -16,30 +16,38 @@ The analysis will support the company in forecasting demand and tailoring their 
 **Data Cleaning:**
       - Handled missing values and outliers to ensure data consistency and reliability.
       - Analyzed numerical and categorical variables for discrepancies.
+      
 **Feature Engineering:**
       - Converted ordinal variables (e.g., season, weathersit) into categorical labels using one-hot encoding to remove implicit hierarchy.
       - Retained the yr variable, identifying it as a valuable predictor due to increasing bike-sharing popularity over time.
+      
 **Scaling and Transformation:**
       - Normalized continuous variables like temp, hum, and windspeed using Min-Max scaling to improve model interpretability and convergence.
 
 **2. Exploratory Data Analysis (EDA)**
+
 **Univariate Analysis:**
 - Analyzed distributions of individual features using histograms and box plots to identify trends and anomalies.
+  
 **Bivariate and Multivariate Analysis:**
 - Correlation heatmaps identified key relationships between independent variables and the target variable cnt.
 - Scatter plots and pair plots highlighted multicollinearity and potential predictors for the regression model.
 
 **3. Model Building**
+
 **Target Variable:**
 - Modeled cnt (total bike demand) as the dependent variable, summing casual and registered users.
+  
 **Multiple Linear Regression:**
 - Built the regression model using Python's sklearn library.
 - Addressed multicollinearity using Variance Inflation Factor (VIF) analysis to select features contributing to prediction accuracy.
 - Implemented a stepwise feature selection process to optimize the model.
 
 **4. Model Evaluation**
+
 **Residual Analysis:**
 - Analyzed residual plots to ensure that assumptions of linearity, homoscedasticity, and normality were met.
+  
 **Performance Metrics:**
 - Evaluated the model using R-squared and Adjusted R-squared values.
 - Used the r2_score metric to assess predictive accuracy on test data.
@@ -49,6 +57,7 @@ The analysis will support the company in forecasting demand and tailoring their 
 **Programming Language:** Python
 
 **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Statsmodels
+
 **Techniques:**
 - One-hot encoding, feature scaling, and VIF for multicollinearity assessment.
 - Model diagnostics for evaluating residuals and performance metrics.
